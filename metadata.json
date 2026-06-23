@@ -3,6 +3,6 @@
   "description": "Displays unread Mastodon notification count in the GNOME status bar. Click to open notifications in your browser.",
   "uuid": "mastodon-notifications@krutonium.ca",
   "shell-version": ["50"],
-  "version": 1,
+  "version": 2,
   "url": "https://krutonium.ca"
 }
