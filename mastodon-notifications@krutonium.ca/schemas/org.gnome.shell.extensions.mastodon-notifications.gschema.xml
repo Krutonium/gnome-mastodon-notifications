@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.mastodon-notifications"
+          path="/org/gnome/shell/extensions/mastodon-notifications/">
+
+    <key name="instance-url" type="s">
+      <default>''</default>
+      <summary>Mastodon Instance URL</summary>
+      <description>The URL of your Mastodon instance (e.g., https://mastodon.social)</description>
+    </key>
+
+    <key name="access-token" type="s">
+      <default>''</default>
+      <summary>Access Token</summary>
+      <description>Your Mastodon access token with read:notifications scope</description>
+    </key>
+
+    <key name="last-read-id" type="s">
+      <default>''</default>
+      <summary>Last Read Notification ID</summary>
+      <description>ID of the most recently read notification, used to count unread</description>
+    </key>
+
+    <key name="poll-interval" type="i">
+      <default>60</default>
+      <summary>Poll Interval (seconds)</summary>
+      <description>How often to check for new notifications, in seconds (minimum 30)</description>
+    </key>
+
+  </schema>
+</schemalist>
